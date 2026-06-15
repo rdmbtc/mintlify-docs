@@ -1,0 +1,84 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Puls",
+  "colors": {
+    "primary": "#62d0ad",
+    "light": "#d27da3",
+    "dark": "#101521"
+  },
+  "favicon": "https://media.brand.dev/26369d89-7c2e-4d71-9a7c-d0fcbbc5780c.png",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@pulsmarket.tech"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start Trading",
+      "href": "https://pulsmarket.tech"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/markets",
+              "concepts/trading",
+              "concepts/resolution",
+              "concepts/liquidity"
+            ]
+          },
+          {
+            "group": "Using Puls",
+            "pages": [
+              "guides/browsing-markets",
+              "guides/placing-trades",
+              "guides/portfolio",
+              "guides/payouts"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/setup",
+              "account/funding",
+              "account/settings"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "faq/general",
+              "faq/trading",
+              "faq/payouts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/pulsmarket"
+    }
+  }
+}

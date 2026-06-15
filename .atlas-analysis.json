@@ -1,0 +1,69 @@
+{
+  "projectType": "saas",
+  "projectName": "Puls",
+  "projectDescription": "Puls is a prediction markets platform where users trade on the outcomes of real-world events.",
+  "theme": "almond",
+  "primaryColor": "#62d0ad",
+  "lightColor": "#d27da3",
+  "darkColor": "#101521",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/markets",
+              "concepts/trading",
+              "concepts/resolution",
+              "concepts/liquidity"
+            ]
+          },
+          {
+            "group": "Using Puls",
+            "pages": [
+              "guides/browsing-markets",
+              "guides/placing-trades",
+              "guides/portfolio",
+              "guides/payouts"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/setup",
+              "account/funding",
+              "account/settings"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "faq/general",
+              "faq/trading",
+              "faq/payouts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Prediction markets on real-world events",
+    "Trade YES/NO outcomes on future events",
+    "Automated market resolution",
+    "Live market pricing based on crowd sentiment",
+    "Portfolio tracking and performance history",
+    "Instant payouts on resolved markets"
+  ],
+  "publicApiSurface": []
+}

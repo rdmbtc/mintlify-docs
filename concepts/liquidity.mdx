@@ -1,0 +1,49 @@
+---
+title: "Puls Liquidity: Market Depth, Spreads, and Slippage"
+sidebarTitle: "Liquidity"
+description: "Learn how liquidity works on Puls prediction markets, why it matters for your trades, and how market depth affects pricing and slippage."
+---
+
+Liquidity describes how easily you can enter or exit a position in a market at a price close to what you expect. A liquid market lets you buy or sell shares quickly without your own trade moving the price against you. A less liquid market may mean wider gaps between what buyers are willing to pay and what sellers are willing to accept — and larger trades can shift the price noticeably before your order is complete. Understanding liquidity before you trade helps you avoid surprises and get the most out of your positions on Puls.
+
+## What Is Liquidity?
+
+In a liquid market, there is a healthy volume of trading activity and a deep pool of shares available at prices close to the current market rate. This produces two practical benefits for you:
+
+- **Tight bid-ask spreads** — The difference between the price to buy and the price to sell is small, meaning you give up very little value simply by entering or exiting a position.
+- **Fast execution** — Your order fills at or very near the displayed price, with minimal slippage between what you saw and what you paid.
+
+Liquidity isn't fixed — it grows as more traders participate in a market and shrinks if activity dries up. High-profile markets with broad public interest tend to be the most liquid on the platform.
+
+## Why Liquidity Matters
+
+Liquidity has a direct impact on the economics of your trades, especially as your position size grows.
+
+- **Price impact** — When you place a large order in a low-liquidity market, your trade itself consumes the available shares at the best prices and pushes subsequent shares to less favourable prices. You end up paying more per share (when buying) or receiving less (when selling) than the price displayed before you started.
+- **Ability to exit** — If you want to sell your position before resolution, you need other traders (or the automated market maker) to be willing to take the other side at a fair price. In illiquid markets, exiting a large position may require accepting a significant discount.
+- **Reliable pricing** — In highly liquid markets, the displayed probability is a more accurate reflection of collective information because many informed participants have weighed in. In thin markets, a single large trade can swing the probability dramatically without representing genuine new information.
+
+## Market Depth
+
+Market depth refers to the volume of buy and sell orders available at prices near the current market rate. You can think of it as the cushion of available liquidity that absorbs your trade without significantly moving the price.
+
+- **Popular markets** — Markets tied to major events like national elections, flagship sports finals, or high-profile earnings reports attract large numbers of traders. These markets typically have substantial depth, meaning even sizeable trades execute with minimal slippage.
+- **Niche markets** — Markets covering less widely followed events may have fewer active participants and thinner order books. The bid-ask spread tends to be wider, and a moderately sized trade can move the price more than you might expect.
+
+When you're evaluating a market, the volume figure on the market page gives you a quick proxy for liquidity. Higher cumulative volume generally signals a deeper, more active market.
+
+## Automated Market Maker
+
+Puls uses an **Automated Market Maker (AMM)** to ensure that every market always has a counterparty available, regardless of how many human traders are currently active. Rather than requiring a willing seller every time you want to buy, the AMM acts as a standing liquidity provider, quoting prices continuously based on the current state of the market.
+
+Here's what that means for you in practice:
+
+- **You can always trade.** The AMM guarantees a quote on both YES and NO shares at any time a market is open, even in newer or less-trafficked markets.
+- **Prices adjust automatically.** As you buy shares, the AMM raises the price of subsequent shares to reflect the increased demand — this is what creates the price impact described above.
+- **Liquidity scales with participation.** As more traders add capital to a market, the AMM's effective depth increases, reducing the price impact of individual trades.
+
+The AMM is the foundation of Puls's trading model, ensuring that markets remain functional and that prices are always available to reflect current sentiment.
+
+<Tip>
+  Before placing a large trade, check the market's total volume and watch how the price quote changes as you increase your order size. A significant shift in the quoted price as you size up is a sign of limited depth — consider splitting your trade into smaller orders over time, or accepting that your entry price will reflect the cost of moving the market.
+</Tip>
